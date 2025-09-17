@@ -7,3 +7,5 @@ _/_/_/_/    _/_/_/  _/_/_/_/    _/_/_/  _/    _/    _/    _/_/_/
                                                                       
 
 ECMAScript implementation for vulnerability research
+
+A multi-stage interpreter that will JIT compiler when necessary
