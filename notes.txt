@@ -1,0 +1,9 @@
+- so lexer and parser should be obvious. 
+- vm is going to be what takes our ecmascript and 
+    translates it into machine executable instructions. 
+    Thankfully we are going to implement this sort of thing using LLVM
+
+- Also, since llvm is built in c++ if we want to use their backend for our VM 
+    We have to write in "C++". So realistically here we're just going ot write 
+    shitty C style C++ which I presume you're okay with. This is only necessary for compatability.
+    
